@@ -77,6 +77,10 @@ module.exports = {
       chunkFilename: "[id].css"
     })
   ],
+  // Top Level Await の設定
+  experiments: {
+    topLevelAwait: true
+  },
   devServer: {
     host: '0.0.0.0'
   }
